@@ -1,0 +1,73 @@
+
+#header{
+    text-align: center;
+    font-family: "Corben";
+    font-size: 25px;
+    text-shadow: 1px 1px 1px #ccc;
+    color: antiquewhite;
+}
+
+#cat{
+    float: left;
+    max-width: 100%;
+    height: auto;
+    background-color: transparent;
+}
+
+#dog{
+    float: right;
+    max-width: 100%;
+    height: auto;
+    border-radius: 13px;
+    background-color: transparent;
+    
+}
+
+#dogButton{
+    text-align: center;
+    display: flex;
+    border: 13px solid #a72ddb;
+    justify-content: center;
+    border-radius: 25px;
+
+}
+#catButton{
+    text-align: center;
+    border: 13px solid #a72ddb;
+    border-radius: 25px;
+    display: flex;
+    justify-content: center;
+    
+}
+#factBox {
+    text-align: center;
+    font-family: "Nobile";
+    font-size: 24px;
+    color:antiquewhite;
+    border: 20px solid  #EF4765;
+    background-color: #EF4765;
+}
+
+.button{
+    background: linear-gradient(to bottom right, #EF4765, #FF9A5A);
+    border: 0;
+    border-radius: 12px;
+    color: #FFFFFF;
+    cursor: pointer;
+    display: block;
+    font-family: "Nobile";
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 2.5;
+    outline: transparent;
+    text-align: center;
+    text-decoration: none;
+    white-space: nowrap;
+    width: 100%;
+    
+}
+body{
+    background: url("https://images-cdn.welcomesoftware.com/Zz03ZTY0Mzk3MDhlNDgxMWViYmRmNWY3MjZjM2QxZTdiZg==");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
